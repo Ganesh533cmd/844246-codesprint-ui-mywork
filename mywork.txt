@@ -1,0 +1,138 @@
+Gift card cascading style sheets in head session that will be in all pages
+
+		"CSS IN EVERY PAGE"
+
+SAMPLE CODE SNIPPET:
+
+body {
+	/* background-image: url('img/bkg.jpg'); */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-left: 15px;
+	padding-top: 10px;
+	width: 97%;
+}
+   
+table, th, td { /* border: 1px solid black; */
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+	text-align: left;
+}
+
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: absolute;
+	z-index: 1;
+	top: 5;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 10px;
+	padding-bottom: 100px;
+	padding-right: 15px;
+	margin-left: 15px;
+}
+
+.sidenav
+ 
+a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #818181;
+	display: block;
+}
+
+.sidenav
+ 
+a
+:hover {
+	color: #f1f1f1;
+}
+
+.main {
+	margin-left: 160px; /* Same as the width of the sidenav */
+	font-size: 14px; /* Increased text to enable scrolling */
+	padding: 0px 20px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
+table, th, td {
+	/* border: 1px solid black; */
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+	text-align: left;
+}
+
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: absolute;
+	z-index: 1;
+	top: 5;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 10px;
+	padding-bottom: 100px;
+	padding-right: 15px;
+	margin-left: 15px;
+}
+
+.sidenav a {
+	padding: 60px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #818181;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.main {
+	margin-left: 160px; /* Same as the width of the sidenav */
+	font-size: 14px; /* Increased text to enable scrolling */
+	padding: 0px 20px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav
+ 
+a {
+		font-size: 18px;
+	}
+}
+
+.mySlides {
+	display: none;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet ........................
+................................
+.................................
+....................
+
+END OF SAMPLE CODE
